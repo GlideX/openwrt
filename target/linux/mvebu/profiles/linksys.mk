@@ -33,9 +33,25 @@ define Profile/Cobra
 	kmod-ata-core kmod-ata-mvebu-ahci \
 	kmod-rtc-armada38x kmod-thermal-armada \
 	kmod-gpio-button-hotplug kmod-hwmon-tmp421 \
-	kmod-leds-pca963x \
-	kmod-ledtrig-usbdev kmod-mwlwifi wpad-mini \
-	swconfig
+	kmod-leds-pca963x kmod-ledtrig-usbdev \
+	kmod-mwlwifi kmod-tun kmod-llc kmod-stp \
+	kmod-bridge kmod-ebtables \
+	kmod-sched-core kmod-sched kmod-sched-connmark \
+	kmod-netem kmod-ipt-core kmod-ipt-conntrack \
+	kmod-ipt-conntrack-extra kmod-ifb \
+	wpad swconfig libpthread libstdcpp zlib \
+	libopenssl coreutils coreutils-sha256sum coreutils-base64 \
+	openssl-util radsecproxy libxml2 libpcre \
+	php5 php5-cgi php5-fastcgi nginx \
+	php5-mod-session php5-mod-json php5-mod-openssl \
+	libsodium uclibcxx libuuid librt \
+	libzmq-nc czmq jansson \
+	libpolarssl libcurl curl libcap ntpdate \
+	liblzo zoneinfo-core zoneinfo-asia zoneinfo-europe \
+	libwrap stunnel iperf3 ebtables \
+	tc wireless-tools ip ca-certificates \
+	libiwinfo iwinfo terminfo libncurses \
+	bash openssh-client openssh-keygen openssh-client-utils
 endef
 
 define Profile/Cobra/Description
