@@ -45,7 +45,7 @@ define Profile/Cobra
 	php5 php5-cgi php5-fastcgi nginx \
 	php5-mod-session php5-mod-json php5-mod-openssl \
 	libsodium uclibcxx libuuid librt \
-	libzmq-nc czmq jansson \
+	libzmq-nc czmq jansson jupiter-client \
 	libpolarssl libcurl curl libcap ntpdate \
 	liblzo zoneinfo-core zoneinfo-asia zoneinfo-europe \
 	libwrap stunnel iperf3 ebtables \
