@@ -259,7 +259,7 @@ CONFIG_KERNEL_PRINTK_TIME=y
 # Package build options
 #
 # CONFIG_DEBUG is not set
-CONFIG_IPV6=y
+# CONFIG_IPV6 is not set
 CONFIG_PKG_BUILD_PARALLEL=y
 CONFIG_PKG_BUILD_USE_JOBSERVER=y
 
@@ -2820,7 +2820,7 @@ CONFIG_PACKAGE_php5-fastcgi=y
 # CONFIG_PACKAGE_php5-fpm is not set
 # CONFIG_PACKAGE_php5-mod-calendar is not set
 # CONFIG_PACKAGE_php5-mod-ctype is not set
-# CONFIG_PACKAGE_php5-mod-curl is not set
+CONFIG_PACKAGE_php5-mod-curl=y
 # CONFIG_PACKAGE_php5-mod-dom is not set
 # CONFIG_PACKAGE_php5-mod-exif is not set
 # CONFIG_PACKAGE_php5-mod-fileinfo is not set
@@ -3317,7 +3317,12 @@ CONFIG_PACKAGE_libnl-tiny=y
 # CONFIG_PACKAGE_libowfat is not set
 # CONFIG_PACKAGE_libp11 is not set
 # CONFIG_PACKAGE_libpam is not set
-# CONFIG_PACKAGE_libpcap is not set
+CONFIG_PACKAGE_libpcap=y
+
+#
+# Configuration
+#
+# CONFIG_PCAP_HAS_USB is not set
 CONFIG_PACKAGE_libpcre=y
 # CONFIG_PACKAGE_libpcre16 is not set
 # CONFIG_PACKAGE_libpcrecpp is not set
@@ -3684,7 +3689,7 @@ CONFIG_PACKAGE_ebtables=y
 # CONFIG_PACKAGE_ebtables-utils is not set
 # CONFIG_PACKAGE_fwknop is not set
 # CONFIG_PACKAGE_fwknopd is not set
-CONFIG_PACKAGE_ip6tables=y
+# CONFIG_PACKAGE_ip6tables is not set
 # CONFIG_PACKAGE_ip6tables-extra is not set
 # CONFIG_PACKAGE_ip6tables-mod-nat is not set
 CONFIG_PACKAGE_iptables=y
@@ -4245,10 +4250,8 @@ CONFIG_PACKAGE_jupiter-client=y
 # CONFIG_PACKAGE_netperf is not set
 # CONFIG_PACKAGE_noping is not set
 # CONFIG_PACKAGE_nut is not set
-CONFIG_PACKAGE_odhcp6c=y
-CONFIG_PACKAGE_odhcp6c_ext_cer_id=0
-CONFIG_PACKAGE_odhcpd=y
-CONFIG_PACKAGE_odhcpd_ext_cer_id=0
+# CONFIG_PACKAGE_odhcp6c is not set
+# CONFIG_PACKAGE_odhcpd is not set
 # CONFIG_PACKAGE_openldap-server is not set
 # CONFIG_PACKAGE_openvswitch is not set
 # CONFIG_PACKAGE_oping is not set
@@ -4279,7 +4282,7 @@ CONFIG_PACKAGE_radsecproxy=y
 # CONFIG_PACKAGE_sstp-client is not set
 CONFIG_PACKAGE_stunnel=y
 # CONFIG_PACKAGE_tayga is not set
-# CONFIG_PACKAGE_tcpdump is not set
+CONFIG_PACKAGE_tcpdump=y
 # CONFIG_PACKAGE_tcpdump-mini is not set
 # CONFIG_PACKAGE_tgt is not set
 # CONFIG_PACKAGE_tor is not set
