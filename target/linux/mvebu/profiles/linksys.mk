@@ -24,11 +24,10 @@ define Profile/Caiman
 	openssl-util radsecproxy libxml2 libpcre \
 	php5 php5-cgi php5-fastcgi nginx \
 	php5-mod-session php5-mod-json php5-mod-openssl \
-	libsodium uclibcxx libuuid librt \
-	libzmq-nc czmq jansson jupiter-client \
-	libpolarssl libcurl curl libcap ntpdate \
+	uclibcxx librt jansson jupiter-client \
+	libcurl curl libcap ntpdate \
 	liblzo zoneinfo-core zoneinfo-asia zoneinfo-europe \
-	libwrap stunnel iperf3 ebtables \
+	libwrap iperf3 ebtables \
 	tc wireless-tools ip ca-certificates \
 	libiwinfo iwinfo terminfo libncurses \
 	bash openssh-client openssh-keygen openssh-client-utils
@@ -60,11 +59,10 @@ define Profile/Cobra
 	openssl-util radsecproxy libxml2 libpcre \
 	php5 php5-cgi php5-fastcgi nginx \
 	php5-mod-session php5-mod-json php5-mod-openssl \
-	libsodium uclibcxx libuuid librt \
-	libzmq-nc czmq jansson jupiter-client \
-	libpolarssl libcurl curl libcap ntpdate \
+	uclibcxx librt jansson jupiter-client \
+	libcurl curl libcap ntpdate \
 	liblzo zoneinfo-core zoneinfo-asia zoneinfo-europe \
-	libwrap stunnel iperf3 ebtables \
+	libwrap iperf3 ebtables \
 	tc wireless-tools ip ca-certificates \
 	libiwinfo iwinfo terminfo libncurses \
 	bash openssh-client openssh-keygen openssh-client-utils
