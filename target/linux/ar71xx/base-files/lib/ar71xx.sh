@@ -442,6 +442,11 @@ ar71xx_board_detect() {
 	*"Dragino v2")
 		name="dragino2"
 		;;
+	*"Domino Pi")
+		name="gl-domino"
+		;;
+	*"GL-AR300")
+		name="gl-ar300"
 	*"DW33D")
 		name="dw33d"
 		;;
@@ -460,6 +465,18 @@ ar71xx_board_detect() {
 	*"GL-CONNECT INET v1")
 		name="gl-inet"
 		gl_inet_board_detect
+		;;
+	*"GL-AR150")
+        name="gl-ar150"
+        ;;
+	*"GL-AR300M")
+		name="gl-ar300m"
+		;;
+	*"GL-MIFI")
+        name="gl-mifi"
+        ;;
+	*"GL-USB")
+		name="gl-usb"
 		;;
 	*"EnGenius EPG5000")
 		name="epg5000"

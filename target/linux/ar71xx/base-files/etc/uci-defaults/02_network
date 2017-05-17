@@ -334,6 +334,7 @@ cap4200ag |\
 eap300v2 |\
 eap7660d |\
 el-mini |\
+gl-usb |\
 loco-m-xw |\
 mr1750 |\
 mr1750v2 |\
@@ -382,6 +383,10 @@ dir-505-a1)
 alfa-ap96 |\
 alfa-nx |\
 ap83 |\
+gl-ar150 |\
+gl-ar300m |\
+gl-mifi |\
+gl-domino |\
 gl-inet |\
 jwap003 |\
 pb42 |\
@@ -391,6 +396,12 @@ tl-wr710n |\
 tl-wr720n-v3|\
 wpe72)
 	ucidef_set_interfaces_lan_wan "eth1" "eth0"
+	;;
+
+gl-ar300)
+	ucidef_set_interfaces_lan_wan "eth1" "eth0"
+	ucidef_add_switch "switch0" "1" "1"
+	ucidef_add_switch_vlan "switch0" "1" "0 1 2 3 4"
 	;;
 
 wpj344)
