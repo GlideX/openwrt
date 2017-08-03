@@ -24,13 +24,14 @@ define Profile/Caiman
 	openssl-util radsecproxy libxml2 libpcre \
 	php5 php5-cgi php5-fastcgi nginx \
 	php5-mod-session php5-mod-json php5-mod-openssl \
-	uclibcxx librt jansson jupiter-client \
-	libcurl curl libcap ntpdate \
+	uclibcxx librt jansson jupiter \
+	libcurl curl libcap ntpd ntpdate \
 	liblzo zoneinfo-core zoneinfo-asia zoneinfo-europe \
-	libwrap iperf3 ebtables \
+	libwrap iperf3 ebtables nmap nping \
 	tc wireless-tools ip ca-certificates \
 	libiwinfo iwinfo terminfo libncurses \
-	bash openssh-client openssh-keygen openssh-client-utils
+	bash openssh-client openssh-keygen openssh-client-utils \
+	python
 endef
 
 define Profile/Caiman/Description
@@ -59,13 +60,14 @@ define Profile/Cobra
 	openssl-util radsecproxy libxml2 libpcre \
 	php5 php5-cgi php5-fastcgi nginx \
 	php5-mod-session php5-mod-json php5-mod-openssl \
-	uclibcxx librt jansson jupiter-client \
-	libcurl curl libcap ntpdate \
+	uclibcxx librt jansson jupiter \
+	libcurl curl libcap ntpd ntpdate \
 	liblzo zoneinfo-core zoneinfo-asia zoneinfo-europe \
-	libwrap iperf3 ebtables \
+	libwrap iperf3 ebtables nmap nping \
 	tc wireless-tools ip ca-certificates \
 	libiwinfo iwinfo terminfo libncurses \
-	bash openssh-client openssh-keygen openssh-client-utils
+	bash openssh-client openssh-keygen openssh-client-utils \
+	python
 endef
 
 define Profile/Cobra/Description
